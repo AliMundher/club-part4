@@ -1,0 +1,43 @@
+body {
+    background-color: #326c94;
+    height: 3000px;
+}
+
+.bg_td {
+    font-weight: bold;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+.bg_td.active {
+    background-color: white;
+    color: #326c94;
+}
+
+.bg_td:hover {
+    background-color: white;
+    color: #326c94;
+}
+
+.ali {
+    writing-mode: vertical-lr;
+    color: #fff;
+    position: relative;
+    top: 18%;
+}
+
+.point {
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: 30px;
+}
+
+.lorem {
+    text-align: justify;
+    color: #fff;
+}
