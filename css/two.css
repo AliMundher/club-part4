@@ -1,0 +1,41 @@
+body {
+    background-color: #9c6748;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custum_h2 {
+    color: white;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 450px;
+    margin: auto;
+}
+
+.custum_h2::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -15px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.lorem {
+    text-align: justify;
+    color: #fff;
+    margin-bottom: 7%;
+}
+
+.bg_td {
+    font-weight: bold;
+    color: #fff;
+    transition: all .5s ease;
+}
